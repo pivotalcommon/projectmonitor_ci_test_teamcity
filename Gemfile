@@ -27,7 +27,7 @@ group :development do
   gem 'lobot'
 end
 
-group :test do
+group :test, :development do
   gem "headless"
   gem "therubyracer"
 end
