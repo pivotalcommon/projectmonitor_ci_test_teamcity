@@ -29,6 +29,7 @@ end
 
 group :test do
   gem "headless"
+  gem "therubyracer"
 end
 
 # To use ActiveModel has_secure_password
